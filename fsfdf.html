@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6th Street Brewery</title>
+    <style>
+        :root {
+            --greenTitle: rgb(1, 175, 0);
+            --gold: rgb(224, 177, 0);
+            --grey: rgb(199, 200, 200);
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        .container1 {
+
+            h2 {
+                color: var(--greenTitle);
+            }
+
+            h4 {
+                color: var(--gold);
+            }
+        }
+
+        .container2 {
+
+            h2 {
+                color: var(--grey);
+            }
+
+            h4 {
+                color: var(--grey);
+            }
+        }
+
+        .text-section {
+            flex: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .image-section {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #e0e0e0;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-section">
+            <!-- Tekst sa leve strane -->
+            <h1 style="margin: 0px; text-align: center;">6th STREET BREWERY<br><em>zanatsko pivo iz Kule</em></h1><br>/p>
+            <h3 style="margin: 0px; text-align: center;">NAŠA PRIČA</h3>
+            <p>6<sup>th</sup> Street Brewery je prva zanatska pivara u Kuli. Osnovana od
+                strane dvojice prijatelja koji su eksperimentisalisa brojnim receptima pre
+                nego što su predstavili svoje prvo pivo zlatne boje, nazvano Fumin.
+                Inspirisani svojom strašću prema pivu i ljubavi prema pivarstvu, otvorili
+                su 6<sup>th</sup> Street Brewery <br>sa ciljem da svoje jedinstvene kreacije
+                podele sa svetom. Svako pivo koje proizvedu je plod njihove posvećenosti kvalitetu,
+                inovacijama i kreativnosti.
+            </p>
+        
+        <div class="container1">
+                <h2>Fumin</h2>
+                <h4> - Golden Ale -</h4>
+                <p><strong>Sastav:</strong><br>
+                    Voda, ječmeni slad, hmelj i kvasac.<br>
+                    <i>Sadrži gluten iz ječmenog slada!</i>
+                </p>
+                <p> <strong>Sadržaj ekstrakta:</strong><br>
+                    Osnovne sladovine <strong>11.2%</strong>.<br>
+                    Sadržaj alkohola <strong>4,8%</strong>.
+                </p>
+                <p> Upakovano je u nepovratnu staklenu ambalažu zapremine <strong>0,33l</strong>.</p>
+                <p> Čuvati na suvom tamnom hladnom mestu na temperaturi od <strong>2℃ do 10℃</strong>.</p>
+                <p> <i> Kod nefiltriranih piva moguća je pojava taloga na dnu flaše.</i></p>
+            </div>
+        
+        <div class="image-section">
+            <img src="Fumin.jpg" alt="Fumin-Golden Ale-">
+        </div>
+        <div class="container2">
+                <h2>FRAGMENTS</h2>
+                <h4> - Session Palle Ale -</h4>
+
+                <p><strong>Sastav:</strong><br>
+                    Voda, ječmeni slad, hmelj, kvasac i ovsene pahuljice.<br>
+                    <i>Sadrži gluten iz ječmenog slada!</i>
+                </p>
+                <p> <strong>Sadržaj ekstrakta:</strong><br>
+                    Osnovne sladovine <strong>11%</strong>.<br>
+                    Sadržaj alkohola <strong>4,5%</strong>.
+                </p>
+                <p> Upakovano je u nepovratnu staklenu ambalažu zapremine <strong>0,33l</strong>.</p>
+                <p> Čuvati na suvom tamnom hladnom mestu na temperaturi od <strong>2℃ do 10℃</strong>.</p>
+                <p> <i> Kod nefiltriranih piva moguća je pojava taloga na dnu flaše.</i></p>
+    </div>
+
+    <!-- Fotografije sa desne strane -->
+    <div class="image-section">
+        <img src="Fragments.jpg" alt="FRAGMENTS-Session Palle Ale-">
+
+    </div>
+    <button onclick="document.location='Kontakt.html'">Kontakt</button>
+</body>
+
+</html>
